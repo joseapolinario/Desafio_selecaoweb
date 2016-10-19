@@ -1,0 +1,62 @@
+body{
+    width: 50%;
+    padding: 1%;
+    margin: 0 auto;
+}
+img{
+    width: 60px;
+    height:60px;
+    float: left;
+    display: inline-block;
+}
+.inputBuscar{
+    width: 70%;
+}
+img{
+    margin-right: 10px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+li{
+    list-style: none;
+    line-height: 50px;
+}
+li,div{
+    border-bottom: 1px solid #ffcfff;
+    margin: 0.59%;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+.login{
+    display: block;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #2d1186;
+    cursor:pointer;
+    margin: 0;
+}
+p{
+    line-height: 10px;
+}
+.email{
+    display: block;
+    font-family: sans;
+    font-size: 1.2em;
+    color: #00312D;
+    margin: 0;
+}
+.botao {
+}
+.divPesquisar{
+    margin: 0 auto;
+}
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
