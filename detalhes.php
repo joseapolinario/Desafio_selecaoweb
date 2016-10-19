@@ -15,17 +15,19 @@
         $usuario = $_REQUEST['usuario'];
         $pesquisar = new Pesquisa;
         
-        $result = $pesquisar->detalher($usuario);
+        $res = $pesquisar->detalher($usuario);
         
-        foreach ($result as $res){
+        print_r($res);
+        
             echo "<div>";
             echo "<li>";
             echo "<img src=".$res['avatar_url']."</img>";
-            echo "<p>".$res['username']."</p>";
-            echo "<a class='login' href='respositorios.php?usuario=".$usuario."'</a>";
+            echo "<p>".$usuario."</p>";
+            echo "<p>".$res['location']."</p>";
+            echo "<a class='login' href='repositorios.php?usuario=".$usuario."'>Ver Repositorios</a>";
             echo "</li>";
             echo "</div>";
-        }
+        
         ?>
     </body>
 </html>

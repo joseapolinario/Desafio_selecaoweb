@@ -24,7 +24,7 @@
 
                 foreach ($result as $a) {
                     foreach ($a as $s) {
-                        echo "<li><a  class='login' href='detalhes.php?".$s['username']."'>". $s['fullname'] . " - " . $s['repos'] ." repositórios</a></li>";
+                        echo "<li><a  class='login' href='detalhes.php?usuario=".$s['username']."'>". $s['fullname'] . " - " . $s['repos'] ." repositórios</a></li>";
                     }
                 }
             }
